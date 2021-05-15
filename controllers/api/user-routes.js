@@ -73,6 +73,8 @@ router.post("/", (req, res) => {
 });
 
 router.post("/login", (req, res) => {
+  console.log("login route hit?------------");
+
   User.findOne({
     where: {
       username: req.body.username,
@@ -83,6 +85,7 @@ router.post("/login", (req, res) => {
         res.status(400).json({ message: "No user with that username!" });
         return;
       }
+
       const validPassword = dbUserData.checkPassword(req.body.password);
 
       if (!validPassword) {
