@@ -2,6 +2,8 @@
 
 ## Repo Link:
 
+https://github.com/chronoslou/tech-blog
+
 ## Heroku Link:
 
 ## Description
