@@ -6,6 +6,8 @@ https://github.com/chronoslou/tech-blog
 
 ## Heroku Link:
 
+https://young-anchorage-39386.herokuapp.com/
+
 ## Description
 
 This is a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts, articles and comment on other developers’ posts as well.
@@ -60,7 +62,7 @@ You’ll need to use the following:
 
 ## Preview of App
 
-![Screenshot](./Assets/11-express-homework-demo-02.png)
+![Screenshot](screenshot.png)
 
 # Lincense
 
